@@ -31,6 +31,6 @@ export const listSlice = createSlice({
   },
 });
 
-export const { addItem, showPopup, updateItem } = listSlice.actions;
+export const { addItem, showPopup, updateItem, filterList } = listSlice.actions;
 
 export default listSlice.reducer;
