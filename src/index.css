@@ -77,6 +77,7 @@ body {
   padding: 10px;
   gap: 10px;
   border-radius: 10px;
+  border: 2px solid gray;
 }
 
 .popup__block {
@@ -97,6 +98,10 @@ body {
   border: 2px solid gray;
   margin-right: 10px;
   background-color: #fff;
+}
+
+.button:last-child {
+  margin-right: 0;
 }
 
 .button:hover {
