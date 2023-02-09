@@ -20,7 +20,13 @@ function Popup() {
 
   return (
     <div className="popup">
-      <input className="popup__input" ref={inputRef} type="text" required />
+      <input
+        className="popup__input"
+        ref={inputRef}
+        type="text"
+        required
+        placeholder="Введите текст..."
+      />
       <div className="popup__block">
         <button className="button" onClick={onClickOk}>
           ОК
