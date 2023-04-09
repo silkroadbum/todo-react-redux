@@ -22,9 +22,8 @@ function Buttons() {
         Добавить
       </button>
       <button className="button" onClick={onClickClear}>
-        Удалить
+        Удалить выполненные
       </button>
-      <button className="button">Тест GraphQL</button>
     </div>
   );
 }
